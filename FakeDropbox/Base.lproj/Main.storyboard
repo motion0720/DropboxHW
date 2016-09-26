@@ -382,7 +382,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="existing_files" id="q62-To-IL6">
-                                <frame key="frameInset" minY="64" width="375" height="548"/>
+                                <frame key="frameInset" minY="63" width="375" height="548"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -547,30 +547,32 @@
             <objects>
                 <viewController id="MBf-2R-IDu" customClass="SettingViewController" customModule="FakeDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUj-dP-LhD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="5sk-C2-qGy">
-                                <frame key="frameInset" minX="-1" minY="65" width="376" height="551"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minX="-1" minY="65" maxY="41"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="settings" id="f6x-Ts-en5">
                                         <rect key="frame" x="0.0" y="-64" width="376" height="894"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mp3-T6-yk3">
+                                        <rect key="frame" x="0.0" y="743" width="376" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="XSg-Y5-5ey"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mp3-T6-yk3">
-                                <frame key="frameInset" minX="-1" minY="485" width="376" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="G4t-bJ-7Fy" kind="modal" modalTransitionStyle="coverVertical" id="9DI-bY-aEU"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="DNb-sB-mf2"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="settingImageView" destination="f6x-Ts-en5" id="GCm-0d-3mx"/>
                         <outlet property="settingScrollView" destination="5sk-C2-qGy" id="HLy-Xi-p59"/>
@@ -578,7 +580,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0r-N8-Rxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5671.5" y="4576.5"/>
+            <point key="canvasLocation" x="5671.5" y="4576"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="H4L-3b-SeP">
@@ -742,7 +744,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gup-ft-Q1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4796" y="2263"/>
+            <point key="canvasLocation" x="4804" y="2206"/>
         </scene>
         <!--Photos-->
         <scene sceneID="iAa-es-yrh">
@@ -820,7 +822,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5A-aB-79j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4796" y="3095"/>
+            <point key="canvasLocation" x="4746" y="3152"/>
         </scene>
         <!--Files-->
         <scene sceneID="yUL-8V-LZF">
@@ -839,7 +841,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXw-xX-bT9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2373.5" y="3051.5"/>
+            <point key="canvasLocation" x="2234" y="3009"/>
         </scene>
         <!--Photos-->
         <scene sceneID="3xk-xF-76Z">
@@ -896,37 +898,39 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfZ-2r-W9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3276" y="3052"/>
+            <point key="canvasLocation" x="3241" y="2980"/>
         </scene>
         <!--Settings-->
         <scene sceneID="FgE-Iz-Dem">
             <objects>
                 <viewController id="WES-b2-R3T" customClass="SettingViewController" customModule="FakeDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iSg-rY-uE1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="V0c-PS-9r8">
-                                <frame key="frameInset" minX="-1" minY="65" width="376" height="551"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minY="61" maxY="51"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="settings" id="oul-IV-xlH">
-                                        <rect key="frame" x="0.0" y="-64" width="376" height="894"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZZQ-Rm-nyE">
+                                        <rect key="frame" x="0.0" y="740" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="64b-MB-Uyf"/>
+                                        </connections>
+                                    </button>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="settings" id="oul-IV-xlH">
+                                        <rect key="frame" x="0.0" y="-63" width="375" height="894"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZZQ-Rm-nyE">
-                                <frame key="frameInset" minY="500" width="375" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="G4t-bJ-7Fy" kind="modal" modalTransitionStyle="coverVertical" id="Lda-fJ-pu4"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="J4F-Z8-cqn"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="settingImageView" destination="oul-IV-xlH" id="EWm-ER-KMn"/>
                         <outlet property="settingScrollView" destination="V0c-PS-9r8" id="xPY-HM-gnV"/>
@@ -934,7 +938,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4O-OF-zba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1386.5" y="3516.5"/>
+            <point key="canvasLocation" x="3851" y="4125"/>
         </scene>
     </scenes>
     <resources>
@@ -972,6 +976,6 @@
         <segue reference="qPd-wx-GRc"/>
         <segue reference="RZK-3z-LTn"/>
         <segue reference="lyb-b8-VmN"/>
-        <segue reference="Lda-fJ-pu4"/>
+        <segue reference="64b-MB-Uyf"/>
     </inferredMetricsTieBreakers>
 </document>
