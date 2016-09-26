@@ -912,17 +912,21 @@
                                 <frame key="frameInset" minY="61" maxY="51"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZZQ-Rm-nyE">
-                                        <rect key="frame" x="0.0" y="740" width="375" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="64b-MB-Uyf"/>
-                                        </connections>
-                                    </button>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="settings" id="oul-IV-xlH">
                                         <rect key="frame" x="0.0" y="-63" width="375" height="894"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZZQ-Rm-nyE">
+                                        <rect key="frame" x="0.0" y="740" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="BIP-Pf-OQP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rou-G9-O1n">
+                                        <rect key="frame" x="-1" y="744" width="376" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -976,6 +980,6 @@
         <segue reference="qPd-wx-GRc"/>
         <segue reference="RZK-3z-LTn"/>
         <segue reference="lyb-b8-VmN"/>
-        <segue reference="64b-MB-Uyf"/>
+        <segue reference="BIP-Pf-OQP"/>
     </inferredMetricsTieBreakers>
 </document>
