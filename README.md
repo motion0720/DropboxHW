@@ -37,7 +37,7 @@ Time spent: `<9>`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Variable naming conventions 
-2. The overview of code structure for iOS app
+2. The overview of the code structure for iOS app
 
 ### Video Walkthrough 
 
