@@ -4,7 +4,7 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `<8>`
+Time spent: `<9>`
 
 ### Features
 
@@ -36,8 +36,8 @@ Time spent: `<8>`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Variable naming conventions 
+2. The overview of code structure for iOS app
 
 ### Video Walkthrough 
 
