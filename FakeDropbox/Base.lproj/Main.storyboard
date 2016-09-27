@@ -562,7 +562,7 @@
                                         <rect key="frame" x="0.0" y="743" width="376" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="XSg-Y5-5ey"/>
+                                            <segue destination="Mr8-Go-HPw" kind="modal" modalTransitionStyle="crossDissolve" id="gey-Wu-8cE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -920,7 +920,7 @@
                                         <rect key="frame" x="-1" y="744" width="376" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="G4t-bJ-7Fy" kind="modal" id="XGp-an-GtR"/>
+                                            <segue destination="Mr8-Go-HPw" kind="modal" modalTransitionStyle="crossDissolve" id="mny-hl-RZr"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -973,9 +973,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="qPd-wx-GRc"/>
         <segue reference="RZK-3z-LTn"/>
         <segue reference="lyb-b8-VmN"/>
-        <segue reference="XGp-an-GtR"/>
+        <segue reference="mny-hl-RZr"/>
     </inferredMetricsTieBreakers>
 </document>
